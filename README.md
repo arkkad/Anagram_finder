@@ -8,7 +8,7 @@ Usage example:
     
     curl localhost:8000/get?word=BaBa - to searching anagrams
     
-    curl localhost:8000/clear - curl localhost:8000/get 
+    curl localhost:8000/clear - to clear anagram list
     
 Two options to start this service:
     

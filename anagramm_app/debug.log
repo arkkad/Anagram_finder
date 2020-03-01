@@ -1,0 +1,5 @@
+Dict of anagrams createddefaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу']})
+Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу']})
+Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу'], 'estt': ['test']})
+Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу']})
+Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу'], 'estt': ['test']})
