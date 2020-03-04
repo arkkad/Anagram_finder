@@ -3,3 +3,15 @@ Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boof
 Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу'], 'estt': ['test']})
 Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу']})
 Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу'], 'estt': ['test']})
+Dict of anagrams created defaultdict(<class 'list'>, {})
+Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу']})
+sequence item 0: expected str instance, list found
+sequence item 0: expected str instance, list found
+'int' object is not iterable
+'int' object is not iterable
+'int' object is not iterable
+Dict of anagrams created defaultdict(<class 'int'>, {'abfoor': 2, 'aabb': 2, 'вжиу': 2, 'AAbb': 1, 'BBaa': 1})
+Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba'], 'вжиу': ['живу', 'вижу'], 'AAbb': ['AbbA'], 'BBaa': ['BaBa']})
+Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba'], 'вжиу': ['живу', 'вижу'], 'AAbb': ['AbbA'], 'BBaa': ['BaBa']})
+Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу']})
+Dict of anagrams created defaultdict(<class 'list'>, {'abfoor': ['foobar', 'boofar'], 'aabb': ['aabb', 'baba', 'AbbA', 'BaBa'], 'вжиу': ['живу', 'вижу']})

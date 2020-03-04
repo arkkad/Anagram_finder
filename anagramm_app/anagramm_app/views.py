@@ -1,7 +1,9 @@
-from collections import defaultdict
+import json
 import logging
-from rest_framework import permissions
+from collections import defaultdict, Counter
+
 from django.http import HttpResponse
+from rest_framework import permissions
 from rest_framework.views import APIView
 
 anagrams = defaultdict(list)
@@ -14,11 +16,9 @@ class AnagramDict(APIView):
 
     def post(self, request):
         if request.method == 'POST':
-            keys = request.data
-            anagram_items = list(keys)[0]
-            items = anagram_items.replace('[', '').replace(']', '').replace('"', '').replace(' ', '').split(',')
+            anagram_words = json.loads(request.body)
             try:
-                anagram_finder(items)
+                anagram_finder(anagram_words)
                 logger.info('Dict of anagrams created ' + str(anagrams))
                 return HttpResponse("Dictionary successfully created ", status=200)
             except Exception as ex:
@@ -43,10 +43,10 @@ class AnagramShowView(APIView):
             return HttpResponse(str(response), status=200)
 
 
-def anagram_finder(list_anagrams):
-    for item in list_anagrams:
-        key = ''.join(sorted(item.lower()))
-        anagrams[key].append(item)
+def anagram_finder(words):
+    sorted_words = [''.join(sorted(w.lower())) for w in words]
+    for n, w in zip(sorted_words, words):
+        anagrams[n].append(w)
 
 
 def anagram_showing(word):
